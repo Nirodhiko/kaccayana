@@ -1,2 +1,2 @@
 # kaccayana
-Epub project of kaccayana English translation
+This project is aimed at create a nicely styled EPUB book of Kaccayana, translated by A.Thitzana, for comfortable reading experience. 
