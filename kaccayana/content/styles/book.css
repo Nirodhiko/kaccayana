@@ -2,66 +2,72 @@
 
 /* Global Styles */
 body {
-  font-family: "Pali";
-  line-height: 1.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+    font-family: "Pali";
+    line-height: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 /* Page Styles */
 header {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 nav {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 section {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 h1 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
-  font-size: 1.25rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 
 p {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 span {
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 br {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 figure {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 aside {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 footer {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
