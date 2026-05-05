@@ -1,39 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
-  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<?xml version="1.0" encoding="utf-8" ?>
+<package
+    version="3.0"
+    unique-identifier="BookId"
+    xmlns="http://www.idpf.org/2007/opf"
+>
+  <metadata
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:opf="http://www.idpf.org/2007/opf"
+    >
   <dc:language>en</dc:language>
   <dc:identifier>urn:isbn:978-1-68172-037-1</dc:identifier>
   <dc:creator>Nirodhiko</dc:creator>
-  <dc:title>Kaccanaya</dc:title>
-  <dc:identifier id="BookId">urn:uuid:5b216e3e-b251-4c69-9916-c342dd0fe1a8</dc:identifier>
+  <dc:title>Kaccāyana</dc:title>
+  <dc:identifier
+            id="BookId"
+        >urn:uuid:5b216e3e-b251-4c69-9916-c342dd0fe1a8</dc:identifier>
   <meta property="dcterms:modified">2026-05-03T15:29:25Z</meta>
   <!-- Compatible with EPUB 2 -->
-  <meta name="cover" content="cover-image"/>
+  <meta name="cover" content="cover-image" />
 </metadata>
 <manifest>
   <!-- Fonts -->
-  <item id="font_0" href="fonts/Pali.ttf" media-type="application/x-font-ttf"/>
-  
+  <item id="font_0" href="fonts/Pali.ttf" media-type="application/x-font-ttf" />
+
   <!-- image -->
-  <item  id="cover-image" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+  <item
+            id="cover-image"
+            href="images/cover.jpg"
+            media-type="image/jpeg"
+            properties="cover-image"
+        />
 
   <!-- Styles -->
-  <item id="font.css" href="styles/font.css" media-type="text/css"/>
-  <item id="book.css" href="styles/book.css" media-type="text/css"/>
+  <item id="font.css" href="styles/font.css" media-type="text/css" />
+  <item id="book.css" href="styles/book.css" media-type="text/css" />
 
   <!-- Content -->
-  <item id="cover.xhtml" href="pages/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-  <item id="nav.xhtml" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-  <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
-  <item id="chapter1.xhtml" href="pages/chapter1.xhtml" media-type="application/xhtml+xml"/>
-  <item id="chapter2.xhtml" href="pages/chapter2.xhtml" media-type="application/xhtml+xml"/>
+  <item
+            id="cover.xhtml"
+            href="pages/cover.xhtml"
+            media-type="application/xhtml+xml"
+            properties="svg"
+        />
+  <item
+            id="nav.xhtml"
+            href="nav.xhtml"
+            media-type="application/xhtml+xml"
+            properties="nav"
+        />
+  <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+  <item
+            id="chapter1.xhtml"
+            href="pages/chapter1.xhtml"
+            media-type="application/xhtml+xml"
+        />
+  <item
+            id="chapter2.xhtml"
+            href="pages/chapter2.xhtml"
+            media-type="application/xhtml+xml"
+        />
   </manifest>
 
   <!-- Define the linear reading order -->
   <spine toc="ncx">
-    <itemref linear="yes" idref="cover.xhtml"/>
+    <itemref linear="yes" idref="cover.xhtml" />
     <!-- <itemref linear="yes" idref="nav.xhtml" /> -->
-    <itemref linear="yes" idref="chapter1.xhtml"/>
-    <itemref linear="yes" idref="chapter2.xhtml"/>
+    <itemref linear="yes" idref="chapter1.xhtml" />
+    <itemref linear="yes" idref="chapter2.xhtml" />
   </spine>
 </package>
